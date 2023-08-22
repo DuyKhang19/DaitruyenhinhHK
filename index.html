@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đài truyền hình kĩ thuật số</title>
+    <link rel="stylesheet" href="CSS/index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="shortcut icon" href="Images/icon2.png" />
+
+</head>
+
+
+<nav class="flex">
+    <a href=""><img src="Images/logo.png" alt="logovtc" class="logo"></a>
+    <ul class="menu flex first">
+
+        <div class="right flex">
+            <a href="">
+                <li class="user"><i class="fa-regular fa-user"></i></li>
+            </a>
+            &nbsp;
+            <a href="">
+                <li>Đăng kí </li>
+            </a>
+            <a> | </a>
+            <a href="">
+                <li>Đăng nhập</li>
+            </a>
+        </div>
+
+
+    </ul>
+</nav>
+
+
+<body>
+    <!-- MENU -->
+    <header>
+        <ul class="menu flex second  ">
+            <label for="toggle_sidebar"><i class="fa-solid fa-bars"></i></label>
+            <input type="checkbox" id="toggle_sidebar">
+            <div class="menu flex channels">
+                <label for="toggle_sidebar"><i class="fa-solid fa-x"></i></label>
+                <li id="home"><a href=""><i class="fa-solid fa-house"></i></a></li>
+                <li id="home"><a href=""><i class="fa-regular fa-newspaper"></i>&nbsp;Tin tức</a></li>
+                <li id="home"><a href=""><i class="fa-regular fa-circle-play"></i>&nbsp;Xem trực tiếp</a></li>
+                <li id="home"><a href=""><i class="fa-solid fa-tv"></i></i>&nbsp;Chương trình</a></li>
+                <li id="home"><a href=""><i class="fa-regular fa-calendar-days"></i>&nbsp;Lịch phát sóng</a></li>
+                <li id="home"><a href=""><i class="fa-solid fa-phone"></i>&nbsp;Liên hệ</a></li>
+            </div>
+            <div id="find">
+                <input type="text" placeholder="Tìm kiếm...">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </ul>
+    </header>
+    <!-- TIN TỨC -->
+    <main>
+        <div class="main1">
+            <h1 style="font-weight: bold; text-transform: uppercase;"><i class="fa-solid fa-newspaper"></i>&nbsp;tin tức
+            </h1>
+            <div class="flex" id="bignews">
+                <div class="flex">
+                    <a href="">
+                        <h3 style="font-size: larger;">Ký túc xá Đại học Quốc gia TP.HCM miễn, giảm phí nội trú cho sinh
+                            viên khó khăn
+                        </h3>
+                        <p>Năm học 2023 - 2024, ký túc xá Đại học Quốc gia TP.HCM triển khai chính sách miễn, giảm phí
+                            nội trú cho sinh viên thuộc các đối tượng như khuyết tật, sinh viên mồ côi, khó khăn, "Bếp
+                            ăn chia sẻ" cũng được triển khai tại ký túc xá.</p>
+                    </a>
+                    <img src="Images/ktxdhqg.jpeg" alt="">
+                </div>
+
+
+                <div id="smallnews">
+                    <ul>
+                        <li> <img src="Images/bds.jpg" alt="" id="smallnewsthumb">
+                        </li>
+                        <li> <a href="" id="smallnews_title">
+                                <h4 id="smallnews_title">Hiệp hội bất động sản TP.HCM kiến nghị sửa thông tư số 06 về
+                                    quy...</h4>
+                            </a></li>
+
+                        <li>
+                            <hr>
+                        </li>
+                        <li><a href="" id="smallnews_title">Trao tặng 2.600 suất học bổng CEP</a></li>
+                        <li>
+                            <hr>
+                        </li>
+                        <li><a href="" id="smallnews_title">Hướng dẫn thí sinh nộp lệ phí đăng ký xét tuyển đại học</a>
+                        </li>
+                        <li>
+                            <hr>
+                        </li>
+                        <li><a href="" id="smallnews_title">Hy vọng từ ngân hàng hạt giống</a></li>
+                        <li>
+                            <hr>
+                        </li>
+                        <li><a href="" id="smallnews_title">Thông tin thời sự nổi bật 21/8/2023</a></li>
+                        <li>
+                            <hr>
+                        </li>
+                        <li><a href="" id="smallnews_title">Hoàn thiện kiến trúc nhà ga Trung tâm Bến Thành</a></li>
+                    </ul>
+
+
+                </div>
+
+            </div>
+            <div class="tintuc">
+                <div>
+                    <img src="Images/cum-kinh-te-2.9--flycam-bach-dang.jpg" alt="" id="smallnews_2_thumb">
+                    <a href="" style="font-size:small;" id="smallnews_2_title">
+                        <h4>&nbsp;&nbsp;TP.HCM dẫn đầu cả nước về thu hút dự án <br> &nbsp;&nbsp;FDI mới trong 7 tháng
+                        </h4>
+                    </a>
+                </div>
+                <div>
+                    <img src="Images/hien-truong-693.jpg" alt="" id="smallnews_2_thumb">
+                    <a href="" style="font-size: small;" id="smallnews_2_title">
+                        <h4>&nbsp;&nbsp;&nbsp;&nbsp;Bộ Ngoại giao thông tin vụ một người Việt
+                            <br>&nbsp;&nbsp;&nbsp;&nbsp;bị bắn tử vong ở...
+                        </h4>
+                    </a>
+                </div>
+                <div>
+                    <img src="Images/thuận thiên.gif" alt="" id="smallnews_2_thumb">
+                    <a href="" style="font-size: small;" id="smallnews_2_title">
+                        <h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Thuận thiên" phát triển Cần Giờ</h4>
+                    </a>
+                </div>
+                <!-- HÔM NAY XEM GÌ -->
+            </div>
+            <h1><i class="fa-solid fa-tv"></i> HÔM NAY XEM GÌ?</h1>
+            <div id="hnxg">
+                <div class="main1-1">
+                    <div class="slide-show">
+                        <div class="dieuhuong">
+                            <i class="fa-regular fa-circle-left" onclick="Back()"></i>
+                            <i class="fa-regular fa-circle-right" onclick="Next()"></i>
+                        </div>
+                        <div class="list-images">
+                            <img src="Images/Homnayxemgi/rap viet mua 3.png" alt="" id="image">
+                            <img src="Images/Homnayxemgi/nhungbaihocthuvi.jpg" alt="" id="image">
+                            <img src="Images/Homnayxemgi/doraemon.png" alt="" id="image">
+                            <img src="Images/Homnayxemgi/thời sự.png" alt="" id="image">
+                        </div>
+                    </div>
+
+
+
+                    <script src="JS/slideshow.js" type="text/javascript"></script>
+
+                    <ul class="quangcao">
+                        <a href="https://www.tvad.com.vn/bang-gia">
+                            <li><img src="Images/Quangcao/1.gif" alt=""></li>
+                        </a>
+                        <a
+                            href="https://www.dangquangwatch.vn/dong-ho/dong-ho-nam.html?=&p=13&g=1&gidzl=KZOwCuN_Ur5MApeyYk1_KLqgDpgMuNK55NazR9AqUbKHUJ8tnE1n2aKkE62IuIi8GozhCJBb-d1RXlnwN0&utm_source=admicro_nativeads">
+                            <li><img src="Images/Quangcao/2.jpg" alt=""></li>
+                        </a>
+                        <a
+                            href="https://charmdiamond.charmcity.vn/?utm_source=Admicro&utm_medium=BalloonAd&utm_campaign=Charm_diamond_balloon">
+                            <li><img src="Images/Quangcao/3.png" alt="" id="quangcao_3"></li>
+                        </a>
+                    </ul>
+                </div>
+
+
+            </div>
+            <!-- THỂ THAO -->
+            <div style="background-color: red; margin-left: -8.5rem; padding-top:10px; color: white;">
+                <div>
+                    <div style="margin-left: 8rem; ">
+                        <h1 class="thumb"><i class="fa-solid fa-futbol"></i>&nbsp;THỂ THAO</h1>
+                        <div class="thumb" id="TT" style="display: flex; ">
+                            <div>
+                                <img src="Images/Thethao/1.png" alt="">
+                                <a href="">
+                                    <h4>&nbsp;&nbsp;HTV cùng Serie A: Điểm nhấn thú vị <br> &nbsp;&nbsp;sau mỗi vòng
+                                        đấu</h4>
+                                </a>
+                            </div>
+                            <div>
+                                <img src="Images/Thethao/2.jpg  " alt="">
+                                <a href="">
+                                    <h4>&nbsp;&nbsp;Các tay vợt nỗ lực tích lũy điểm ở <br>&nbsp;&nbsp;Cincinnati
+                                        hướng đến giải
+                                        Mỹ mở rộng <br> &nbsp;&nbsp;sau mỗi vòng đấu</h4>
+                                </a>
+                            </div>
+                            <div>
+                                <img src="Images/Thethao/3.png" alt="">
+                                <a href="">
+                                    <h4>&nbsp;&nbsp;Khiêu vũ thể thao TP.HCM – đa dạng <br> &nbsp;&nbsp;để phát
+                                        triển</h4>
+                                </a>
+                            </div>
+                            <div>
+                                <img src="Images/Thethao/4.png" alt="">
+                                <a href="">
+                                    <h4>&nbsp;&nbsp;HTV cùng Serie A: Điểm nhấn thú vị <br> &nbsp;&nbsp;sau mỗi vòng
+                                        đấu</h4>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- PHIM TRUYỆN-->
+            <div style="margin-left: -8.5rem; padding-top: 10px;">
+                <div>
+                    <div style="margin-left: 8rem;">
+                        <h1 class="thumb"><i class="fa-solid fa-film"></i>&nbsp;PHIM TRUYỆN</h1>
+                        <div class="thumb" id="Phimtruyen" style="display: flex;">
+                            <div>
+                                <img src="Images/Phimtruyen/1.png" alt="">
+                                <a href="">
+                                    <h4>&nbsp;&nbsp;Phim tài liệu "Lặng thầm một ngọn <br> &nbsp; lửa" </h4>
+                                </a>
+                            </div>
+                            <div>
+                                <img src="Images/Phimtruyen/2.png" alt="">
+                                <a href="">
+                                    <h4>&nbsp;&nbsp;Nguy cơ tiểu tam chen giữa vợ <br> &nbsp; chồng Khánh Vũ - Ngọc
+                                        Hoa</h4>
+                                </a>
+                            </div>
+                            <div>
+                                <img src="Images/Phimtruyen/3.jpg" alt="">
+                                <a href="">
+                                    <h4>&nbsp;&nbsp;Gặp gỡ ba anh em nhà Cá Lóc - Cá <br> &nbsp; Rô - Cá Bống</h4>
+                                </a>
+                            </div>
+                            <div>
+                                <img src="Images/Phimtruyen/4.png" alt="">
+                                <a href="">
+                                    <h4>&nbsp;&nbsp;Phim tài liệu: Viện sĩ Nguyễn Chơn <br> &nbsp; Trung
+                                    </h4>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- SÂN KHẤU -->
+            <div style="margin-left: -8.5rem; padding-top: 10px; background-color: antiquewhite;">
+                <div>
+                    <div style="margin-left: 8rem;">
+                        <h1 class="thumb"><i class="fa-solid fa-masks-theater"></i></i>&nbsp;SÂN KHẤU</h1>
+                        <div class="thumb" id="Sankhau" style="display: flex;">
+                            <div>
+                                <img src="Images/Sankhau/1.png" alt="">
+                                <a href="">
+                                    <h4>&nbsp;&nbsp;Bà ngoại là mẹ </h4>
+                                </a>
+                            </div>
+                            <div>
+                                <img src="Images/Sankhau/2.png" alt="">
+                                <a href="">
+                                    <h4>&nbsp;&nbsp;Tiến sĩ Nguyễn Lê Tuyên: Nuôi <br> &nbsp;&nbsp;dưỡng tình yêu lớn
+                                        với âm nhạc <br>&nbsp;&nbsp;dân tộc</h4>
+                                </a>
+                            </div>
+                            <div>
+                                <img src="Images/Sankhau/3.png" alt="">
+                                <a href="">
+                                    <h4>&nbsp;&nbsp;Ghen quá hóa mù</h4>
+                                </a>
+                            </div>
+                            <div>
+                                <img src="Images/Sankhau/4.jpg" alt="">
+                                <a href="">
+                                    <h4>&nbsp;&nbsp;Guitarist Tim Trần - Dâng trào cảm <br>&nbsp; hứng khi chơi rock
+                                        cùng giao hưởng
+                                    </h4>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- VĂN HOÁ GIẢI TRÍ -->
+            <div style="margin-left: -8.5rem; padding-top: 10px; background-color: lightgreen;">
+                <div>
+                    <div style="margin-left: 8rem;">
+                        <h1 class="thumb"><i class="fa-solid fa-face-laugh"></i></i>&nbsp;VĂN HOÁ GIẢI TRÍ</h1>
+                        <div class="thumb" id="VHGT" style="display: flex;">
+                            <div>
+                                <img src="Images/Vanhoagiaitri/1.jpg" alt="">
+                                <a href="">
+                                    <h4>&nbsp;&nbsp;Miền ký ức: Thanh âm ký ức</h4>
+                                </a>
+                            </div>
+                            <div>
+                                <img src="Images/Vanhoagiaitri/2.jpg" alt="">
+                                <a href="">
+                                    <h4>&nbsp;&nbsp;"Nữ hoàng vai phụ" Thụy Mười: Miệt <br> &nbsp; mài giữ lửa đam mê
+                                    </h4>
+                                </a>
+                            </div>
+                            <div>
+                                <img src="Images/Vanhoagiaitri/3.png" alt="">
+                                <a href="">
+                                    <h4>&nbsp;&nbsp;Viết tiếp yêu thương với dự án <br> &nbsp;“Phiên chợ tử tế”</h4>
+                                </a>
+                            </div>
+                            <div>
+                                <img src="Images/Vanhoagiaitri/4.jpg" alt="">
+                                <a href="">
+                                    <h4>&nbsp;&nbsp;Kỷ niệm 78 năm Cách mạng Tháng Tám
+                                    </h4>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- CÚP TRUYỀN HÌNH -->
+            <div style="margin-left: -8.5rem; padding-top: 10px; background-color: yellow;">
+                <div>
+                    <div style="margin-left: 8rem;">
+                        <h1 class="thumb" id="Cuptruyenhinh"><i class="fa-solid fa-trophy"></i>&nbsp;CÚP TRUYỀN HÌNH
+                        </h1>
+                        <div class="thumb" id="cupTH" style="display: flex;">
+                            <div>
+                                <img src="Images/Cuptruyenhinh/1.jpg" alt="">
+                                <a href="">
+                                    <h4>&nbsp;&nbsp;Tổng hợp các danh hiệu - Cúp <br> &nbsp; Truyền hình TP.HCM 2023
+                                    </h4>
+                                </a>
+                            </div>
+                            <div>
+                                <img src="Images/Cuptruyenhinh/2.jpg" alt="">
+                                <a href="">
+                                    <h4>&nbsp;&nbsp;Vinh quang vẫy gọi - Cảm ơn và <br> &nbsp; hẹn gặp lại
+                                    </h4>
+                                </a>
+                            </div>
+                            <div>
+                                <img src="Images/Cuptruyenhinh/3.png" alt="">
+                                <a href="">
+                                    <h4>&nbsp;&nbsp;Các tay đua nghĩ gì về Cúp Truyền <br>&nbsp; hình TP.HCM lần thứ 35?
+                                    </h4>
+                                </a>
+                            </div>
+                            <div>
+                                <img src="Images/Cuptruyenhinh/4.jpg" alt="">
+                                <a href="">
+                                    <h4>&nbsp;&nbsp;Chặng đua thứ 25 với chiến thắng cho <br> &nbsp;Javier Perez
+                                    </h4>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- CHUYÊN ĐỀ -->
+            <div style="margin-left: -8.5rem; padding-top: 10px; background-color:deepskyblue; color: whitesmoke;">
+                <div>
+                    <div style="margin-left: 8rem;">
+                        <h1 class="thumb"><i class="fa-solid fa-globe"></i>&nbsp;CHUYÊN ĐỀ</h1>
+                        <div class="thumb" id="chuyende" style="display: flex;">
+                            <div>
+                                <img src="Images/Chuyende/1.jpg" alt="">
+                                <a href="">
+                                    <h4>&nbsp;&nbsp;Kỉ niệm 135 năm Ngày sinh Chủ tịch <br>&nbsp;Tôn Đức Thắng
+                                        (20/8/1888 - 20/8/2023)</h4>
+                                </a>
+                            </div>
+                            <div>
+                                <img src="Images/Chuyende/2.jpg" alt="">
+                                <a href="">
+                                    <h4>&nbsp;&nbsp;Việt Nam và Australia tăng cường <br>&nbsp; hợp tác về chuyển đổi số
+                                        và kinh tế <br> &nbsp; số
+                                    </h4>
+                                </a>
+                            </div>
+                            <div>
+                                <img src="Images/Chuyende/3.png" alt="">
+                                <a href="">
+                                    <h4>&nbsp;&nbsp;Phong cách nêu gương của Chủ <br>&nbsp; tịch Hồ Chí Minh trong đấu
+                                        tranh <br>&nbsp; phòng, chống tham nhũng, tiêu cực
+                                    </h4>
+                                </a>
+                            </div>
+                            <div>
+                                <img src="Images/Chuyende/4.jpg" alt="">
+                                <a href="">
+                                    <h4>&nbsp;&nbsp;Khai mở tiềm năng hợp tác số giữa <br>&nbsp; Việt Nam và New Zealand
+                                    </h4>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="backtop">
+                <i class="fa-solid fa-chevron-up"></i>
+
+            </div>
+
+    </main>
+
+
+
+
+    <footer class="flex">
+        <ul class="leftfooter">
+            <li><img src="Images/icon2.png" alt="" class="imgfooter"></li>
+            <li><a href=""><img src="Images/link_googleplay.png" alt=""></a></li>
+            <div id="license">
+                <li>Đài Truyền hình H&K giữ bản quyền nội dung trên website này</li>
+                <li> Không được sao chép thông tin nếu không có sự chấp thuận bằng văn bản của H&K.</li>
+            </div>
+            <li><i class="fa-solid fa-users"></i>Tương tác với chúng tôi:</li>
+            <div class="flex" id="interact">
+                <li id="MXH"><a href="https://www.facebook.com/TruongDaiHocMo"><i
+                            class="fa-brands fa-facebook fa-2xl"></i></li></a>
+                <li id="MXH"><a href="https://www.youtube.com/"><i class="fa-brands fa-youtube fa-2xl"></i></li></a>
+                <li id="MXH"><a href="https://www.tiktok.com/vi-VN/"><i class="fa-brands fa-tiktok fa-2xl"></i></li></a>
+            </div>
+            <li></li>
+        </ul>
+        <ul class="rightfooter">
+            <li id="call">LIÊN HỆ</li>
+            <li id="name">ĐÀI TRUYỀN HÌNH KỸ THUẬT SỐ H&K</li>
+            <li><i class="fa-solid fa-location-dot"></i>: 371 Nguyễn Kiệm, P.3, Q.Gò Vấp, TP.Hồ Chí Minh</li>
+            <li><i class="fa-solid fa-phone"></i>: 028-38364748</li>
+            <li><i class="fa-solid fa-fax"></i>: 028-39207639 hoặc 028-39207640</li>
+            <li><i class="fa-solid fa-envelope"></i>: ou@ou.edu.vn</li>
+        </ul>
+    </footer>
+
+
+</body>
+<script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+    crossorigin="anonymous"></script>
+<script>
+    $(document).ready(function () {
+        $(window).scroll(function () {
+            if ($(this).scrollTop()) {
+                $('#backtop').fadeIn();
+            } else {
+                $('#backtop').fadeOut();
+            }
+        });
+    });
+    $("#backtop").click(function () {
+        $('html,body').animate({
+            scrollTop: 0
+        }, 1000)
+    })
+</script>
+
+
+</html>
